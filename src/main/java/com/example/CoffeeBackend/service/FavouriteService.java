@@ -45,7 +45,7 @@ public class FavouriteService {
         return buildFavouriteResponse(saved);
     }
 
-    public List<FavouriteResponseDTO> getFavouriteByUser(Long userId) {
+    public List<FavouriteResponseDTO> getFavouriteByUser(String userId) {
 
         return favouriteRepository.findByUserId(userId)
                 .stream()

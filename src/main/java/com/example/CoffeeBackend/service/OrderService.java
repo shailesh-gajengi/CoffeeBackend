@@ -73,7 +73,7 @@ public class OrderService {
         return buildOrderResponse(savedOrder);
     }
 
-    public List<OrderResponseDTO> getOrdersByUser(Long userId) {
+    public List<OrderResponseDTO> getOrdersByUser(String userId) {
 
         return orderRepository.findByUserId(userId)
                 .stream()

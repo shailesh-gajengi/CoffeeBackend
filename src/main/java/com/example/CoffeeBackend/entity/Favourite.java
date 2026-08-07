@@ -10,14 +10,14 @@ public class Favourite {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long userId;
+    private String userId;
 
     private Long coffeeId;
 
     public Favourite() {
     }
 
-    public Favourite(Long id, Long userId, Long coffeeId) {
+    public Favourite(Long id, String userId, Long coffeeId) {
         this.id = id;
         this.userId = userId;
         this.coffeeId = coffeeId;
@@ -31,11 +31,11 @@ public class Favourite {
         this.id = id;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

@@ -50,7 +50,7 @@ public class CartService {
         return buildCartResponse(saved);
     }
 
-    public List<CartResponseDTO> getCartByUser(Long userId) {
+    public List<CartResponseDTO> getCartByUser(String userId) {
 
         return cartRepository.findByUserId(userId)
                 .stream()

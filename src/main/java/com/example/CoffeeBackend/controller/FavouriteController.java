@@ -30,7 +30,7 @@ public class FavouriteController {
 
     @GetMapping("/user/{userId}")
     public ResponseEntity<List<FavouriteResponseDTO>> getFavourite(
-            @PathVariable Long userId
+            @PathVariable String userId
     ) {
 
         return ResponseEntity.ok(

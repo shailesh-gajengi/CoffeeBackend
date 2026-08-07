@@ -10,7 +10,7 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long userId;
+    private String userId;
 
     private Long coffeeId;
 
@@ -19,7 +19,7 @@ public class Cart {
     public Cart() {
     }
 
-    public Cart(Long id, Long userId, Long coffeeId, int quantity) {
+    public Cart(Long id, String userId, Long coffeeId, int quantity) {
         this.id = id;
         this.userId = userId;
         this.coffeeId = coffeeId;
@@ -34,11 +34,11 @@ public class Cart {
         this.id = id;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

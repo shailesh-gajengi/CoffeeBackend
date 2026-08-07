@@ -10,7 +10,7 @@ import java.util.List;
 
 public class OrderMapper {
 
-    public static Order toEntity(Long userId,
+    public static Order toEntity(String userId,
                                  Double totalAmount,
                                  String paymentMethod) {
 

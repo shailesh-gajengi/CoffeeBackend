@@ -10,7 +10,7 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long userId;
+    private String userId;
 
     private double totalAmount;
 
@@ -19,7 +19,7 @@ public class Order {
     public Order() {
     }
 
-    public Order(Long id, Long userId, double totalAmount, String paymentMethod) {
+    public Order(Long id, String userId, double totalAmount, String paymentMethod) {
         this.id = id;
         this.userId = userId;
         this.totalAmount = totalAmount;
@@ -34,11 +34,11 @@ public class Order {
         this.id = id;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

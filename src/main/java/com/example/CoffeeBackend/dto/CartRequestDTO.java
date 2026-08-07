@@ -2,23 +2,23 @@ package com.example.CoffeeBackend.dto;
 
 public class CartRequestDTO {
 
-    private Long userId;
+    private String userId;
     private Long coffeeId;
     private Integer quantity;
 
     public CartRequestDTO() {}
 
-    public CartRequestDTO(Long userId, Long coffeeId, Integer quantity) {
+    public CartRequestDTO(String userId, Long coffeeId, Integer quantity) {
         this.userId = userId;
         this.coffeeId = coffeeId;
         this.quantity = quantity;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

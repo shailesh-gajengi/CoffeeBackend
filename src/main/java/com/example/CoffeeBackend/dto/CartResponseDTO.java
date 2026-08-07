@@ -3,7 +3,7 @@ package com.example.CoffeeBackend.dto;
 public class CartResponseDTO {
 
     private Long id;
-    private Long userId;
+    private String userId;
     private Long coffeeId;
     private String coffeeName;
     private Double price;
@@ -49,11 +49,11 @@ public class CartResponseDTO {
         this.imageUrl = imageUrl;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
@@ -71,7 +71,7 @@ public class CartResponseDTO {
     }
 
     public CartResponseDTO(Long id,
-                           Long userId,
+                           String userId,
                            Long coffeeId,
                            String coffeeName,
                            Double price,

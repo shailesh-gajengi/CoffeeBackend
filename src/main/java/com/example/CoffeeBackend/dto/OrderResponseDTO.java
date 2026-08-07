@@ -5,7 +5,7 @@ import java.util.List;
 public class OrderResponseDTO {
 
     private Long orderId;
-    private Long userId;
+    private String userId;
     private Double totalAmount;
     private String paymentMethod;
     private List<OrderItemResponseDTO> items;
@@ -14,7 +14,7 @@ public class OrderResponseDTO {
     }
 
     public OrderResponseDTO(Long orderId,
-                            Long userId,
+                            String userId,
                             Double totalAmount,
                             String paymentMethod,
                             List<OrderItemResponseDTO> items) {
@@ -34,11 +34,11 @@ public class OrderResponseDTO {
         this.orderId = orderId;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

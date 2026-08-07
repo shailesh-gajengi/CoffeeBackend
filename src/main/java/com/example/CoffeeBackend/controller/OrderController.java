@@ -29,7 +29,7 @@ public class OrderController {
 
     @GetMapping("/user/{userId}")
     public ResponseEntity<List<OrderResponseDTO>> getOrdersByUser(
-            @PathVariable Long userId) {
+            @PathVariable String userId) {
 
         return ResponseEntity.ok(
                 orderService.getOrdersByUser(userId)
