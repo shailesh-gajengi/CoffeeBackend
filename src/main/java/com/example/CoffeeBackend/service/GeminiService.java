@@ -2,6 +2,7 @@ package com.example.CoffeeBackend.service;
 
 import com.google.genai.Client;
 import com.google.genai.errors.ClientException;
+import com.google.genai.errors.ServerException;
 import com.google.genai.types.EmbedContentResponse;
 import com.google.genai.types.GenerateContentResponse;
 import org.springframework.stereotype.Service;
@@ -44,15 +45,30 @@ public class GeminiService {
 
             return response.text();
 
+        } catch (ServerException e) {
+
+            // Gemini returned HTTP 503
+            System.out.println(
+                    "Gemini server unavailable: " + e.getMessage()
+            );
+
+            // Let GlobalExceptionHandler handle the HTTP response
+            throw e;
+
         } catch (ClientException e) {
 
             if (e.code() == 429) {
                 return "I'm temporarily unavailable because the AI request limit has been reached. Please try again shortly.";
             }
 
+            System.out.println(
+                    "Gemini client error: " + e.getMessage()
+            );
+
             return "Sorry, I couldn't generate a response right now.";
         }
     }
+
     public List<Float> generateEmbedding(String text) {
 
         EmbedContentResponse response =
@@ -68,6 +84,7 @@ public class GeminiService {
                 .values()
                 .orElseThrow();
     }
+
     public int testEmbedding(String text) {
 
         List<Float> embedding = generateEmbedding(text);

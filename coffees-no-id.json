@@ -1,0 +1,401 @@
+[
+    {
+        "name":  "Caramel Macchiato",
+        "description":  "Espresso layered with steamed milk and caramel",
+        "price":  7.8,
+        "imageUrl":  "coffee_7.png",
+        "category":  "Special"
+    },
+    {
+        "name":  "Iced Latte",
+        "description":  "Cold espresso blended with milk and served over ice. Creamy, refreshing and smooth.",
+        "price":  6.3,
+        "imageUrl":  "coffee_3.png",
+        "category":  "Cold Coffee"
+    },
+    {
+        "name":  "Iced Caramel Latte",
+        "description":  "Chilled latte with rich caramel sweetness. Creamy, refreshing and indulgent.",
+        "price":  6.8,
+        "imageUrl":  "coffee_4.png",
+        "category":  "Cold Coffee"
+    },
+    {
+        "name":  "Iced Vanilla Latte",
+        "description":  "Cold espresso, milk and vanilla flavor over ice. Smooth and lightly sweet.",
+        "price":  6.7,
+        "imageUrl":  "coffee_5.png",
+        "category":  "Cold Coffee"
+    },
+    {
+        "name":  "Iced Mocha",
+        "description":  "Chilled espresso blended with chocolate and milk. Rich, sweet and refreshing.",
+        "price":  7.0,
+        "imageUrl":  "coffee_6.png",
+        "category":  "Cold Coffee"
+    },
+    {
+        "name":  "Cold Brew",
+        "description":  "Slow-steeped cold coffee with a smooth, mellow and naturally rich flavor.",
+        "price":  6.5,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Cold Brew"
+    },
+    {
+        "name":  "Vanilla Cold Brew",
+        "description":  "Smooth cold brew with subtle vanilla sweetness. Refreshing and balanced.",
+        "price":  6.8,
+        "imageUrl":  "coffee_2.png",
+        "category":  "Cold Brew"
+    },
+    {
+        "name":  "Caramel Cold Brew",
+        "description":  "Smooth cold brew with caramel sweetness. Rich, refreshing and lightly sweet.",
+        "price":  7.0,
+        "imageUrl":  "coffee_3.png",
+        "category":  "Cold Brew"
+    },
+    {
+        "name":  "Nitro Cold Brew",
+        "description":  "Smooth cold brew with a creamy texture and strong coffee character. Low in sweetness.",
+        "price":  7.5,
+        "imageUrl":  "coffee_4.png",
+        "category":  "Cold Brew"
+    },
+    {
+        "name":  "Irish Cream Coffee",
+        "description":  "Rich coffee with creamy Irish cream flavor. Smooth, sweet and indulgent.",
+        "price":  7.2,
+        "imageUrl":  "coffee_6.png",
+        "category":  "Specialty"
+    },
+    {
+        "name":  "Espresso",
+        "description":  "Strong and rich espresso shot",
+        "price":  5.8,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Espresso"
+    },
+    {
+        "name":  "Cappuccino",
+        "description":  "Espresso with steamed milk and foam",
+        "price":  6.5,
+        "imageUrl":  "coffee_2.png",
+        "category":  "Milk Coffee"
+    },
+    {
+        "name":  "Double Espresso",
+        "description":  "Two shots of concentrated espresso with a powerful aroma and strong coffee flavor.",
+        "price":  6.0,
+        "imageUrl":  "coffee_5.png",
+        "category":  "Espresso"
+    },
+    {
+        "name":  "Cafe Latte",
+        "description":  "Smooth espresso with creamy milk",
+        "price":  6.8,
+        "imageUrl":  "coffee_3.png",
+        "category":  "Milk Coffee"
+    },
+    {
+        "name":  "Caramel Latte",
+        "description":  "Smooth espresso blended with steamed milk and rich caramel. Sweet, creamy and comforting.",
+        "price":  6.2,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Vanilla Latte",
+        "description":  "Creamy espresso with steamed milk and vanilla sweetness. Smooth and mildly sweet.",
+        "price":  6.0,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Hazelnut Latte",
+        "description":  "Espresso with steamed milk and roasted hazelnut flavor. Nutty, creamy and balanced.",
+        "price":  6.3,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Honey Latte",
+        "description":  "Espresso, steamed milk and natural honey flavor. Smooth, gentle and lightly sweet.",
+        "price":  6.1,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Almond Latte",
+        "description":  "Creamy latte with roasted almond flavor. Nutty, smooth and lightly sweet.",
+        "price":  6.4,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Coconut Latte",
+        "description":  "Espresso with creamy milk and subtle coconut flavor. Smooth and refreshing.",
+        "price":  6.5,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Toffee Latte",
+        "description":  "Rich espresso mixed with steamed milk and buttery toffee sweetness.",
+        "price":  6.4,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Mocha Latte",
+        "description":  "Creamy espresso with chocolate and steamed milk. Rich, sweet and smooth.",
+        "price":  6.7,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Dark Chocolate Mocha",
+        "description":  "Strong espresso combined with dark chocolate and creamy milk. Rich and bittersweet.",
+        "price":  7.0,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Mocha"
+    },
+    {
+        "name":  "White Chocolate Mocha",
+        "description":  "Espresso with white chocolate and steamed milk. Creamy, rich and sweet.",
+        "price":  7.1,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Mocha"
+    },
+    {
+        "name":  "Caramel Mocha",
+        "description":  "Espresso blended with chocolate, caramel and steamed milk. Sweet and indulgent.",
+        "price":  7.2,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Mocha"
+    },
+    {
+        "name":  "Mint Mocha",
+        "description":  "Chocolate espresso with a refreshing mint finish. Sweet, rich and refreshing.",
+        "price":  7.0,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Mocha"
+    },
+    {
+        "name":  "Classic Americano",
+        "description":  "Espresso diluted with hot water for a smooth, bold and clean coffee taste.",
+        "price":  5.2,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Americano"
+    },
+    {
+        "name":  "Strong Americano",
+        "description":  "Double espresso with hot water. Bold, strong and suitable for coffee lovers wanting extra intensity.",
+        "price":  5.8,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Americano"
+    },
+    {
+        "name":  "Iced Americano",
+        "description":  "Chilled espresso with cold water and ice. Bold, refreshing and low in sweetness.",
+        "price":  5.7,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Cold Coffee"
+    },
+    {
+        "name":  "Citrus Americano",
+        "description":  "Refreshing americano with a light citrus flavor. Bright, clean and slightly bitter.",
+        "price":  6.0,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Americano"
+    },
+    {
+        "name":  "Classic Cappuccino",
+        "description":  "Espresso with steamed milk and a thick foam layer. Balanced, creamy and bold.",
+        "price":  6.0,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Cappuccino"
+    },
+    {
+        "name":  "Chocolate Cappuccino",
+        "description":  "Classic cappuccino with chocolate flavor. Creamy, rich and mildly sweet.",
+        "price":  6.5,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Cappuccino"
+    },
+    {
+        "name":  "Caramel Cappuccino",
+        "description":  "Espresso, steamed milk and foam with caramel sweetness. Smooth and comforting.",
+        "price":  6.6,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Cappuccino"
+    },
+    {
+        "name":  "Cinnamon Cappuccino",
+        "description":  "Classic cappuccino with warm cinnamon notes. Aromatic, creamy and mildly sweet.",
+        "price":  6.3,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Cappuccino"
+    },
+    {
+        "name":  "Espresso Macchiato",
+        "description":  "Strong espresso topped with a small amount of foamed milk. Bold with a creamy finish.",
+        "price":  6.3,
+        "imageUrl":  "coffee_6.png",
+        "category":  "Espresso"
+    },
+    {
+        "name":  "Caramel Espresso",
+        "description":  "Concentrated espresso with caramel sweetness. Strong, rich and slightly sweet.",
+        "price":  6.4,
+        "imageUrl":  "coffee_7.png",
+        "category":  "Espresso"
+    },
+    {
+        "name":  "Chocolate Espresso",
+        "description":  "Intense espresso with a touch of dark chocolate. Strong, rich and bittersweet.",
+        "price":  6.5,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Espresso"
+    },
+    {
+        "name":  "Honey Espresso",
+        "description":  "Bold espresso softened with a hint of honey sweetness. Strong but smooth.",
+        "price":  6.3,
+        "imageUrl":  "coffee_2.png",
+        "category":  "Espresso"
+    },
+    {
+        "name":  "Americano",
+        "description":  "Espresso blended with hot water",
+        "price":  5.2,
+        "imageUrl":  "coffee_4.png",
+        "category":  "Espresso"
+    },
+    {
+        "name":  "Cafe Mocha",
+        "description":  "Chocolate flavored espresso with milk",
+        "price":  7.2,
+        "imageUrl":  "coffee_5.png",
+        "category":  "Special"
+    },
+    {
+        "name":  "Cold Coffee",
+        "description":  "Refreshing chilled coffee with ice",
+        "price":  4.9,
+        "imageUrl":  "coffee_6.png",
+        "category":  "Cold Coffee"
+    },
+    {
+        "name":  "Cinnamon Latte",
+        "description":  "Smooth espresso and steamed milk with warm cinnamon notes. Mildly sweet and comforting.",
+        "price":  5.9,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Brown Sugar Latte",
+        "description":  "Espresso with steamed milk and brown sugar sweetness. Warm, smooth and comforting.",
+        "price":  6.2,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Latte"
+    },
+    {
+        "name":  "Hazelnut Mocha",
+        "description":  "Chocolate espresso drink with roasted hazelnut flavor. Rich, nutty and sweet.",
+        "price":  7.3,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Mocha"
+    },
+    {
+        "name":  "Vanilla Americano",
+        "description":  "Bold americano with subtle vanilla sweetness. Smooth and refreshing.",
+        "price":  5.9,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Americano"
+    },
+    {
+        "name":  "Hazelnut Cappuccino",
+        "description":  "Foamy cappuccino with roasted hazelnut flavor. Nutty, creamy and balanced.",
+        "price":  6.7,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Cappuccino"
+    },
+    {
+        "name":  "Iced Hazelnut Coffee",
+        "description":  "Cold coffee with roasted hazelnut flavor. Nutty, creamy and refreshing.",
+        "price":  6.9,
+        "imageUrl":  "coffee_7.png",
+        "category":  "Cold Coffee"
+    },
+    {
+        "name":  "Chocolate Cold Brew",
+        "description":  "Cold brew combined with rich chocolate flavor. Smooth, bold and slightly sweet.",
+        "price":  7.1,
+        "imageUrl":  "coffee_5.png",
+        "category":  "Cold Brew"
+    },
+    {
+        "name":  "Butterscotch Coffee",
+        "description":  "Coffee with warm butterscotch sweetness. Creamy, rich and comforting.",
+        "price":  6.9,
+        "imageUrl":  "coffee_7.png",
+        "category":  "Specialty"
+    },
+    {
+        "name":  "Maple Coffee",
+        "description":  "Smooth coffee with natural maple sweetness. Warm, mellow and comforting.",
+        "price":  6.7,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Specialty"
+    },
+    {
+        "name":  "Pistachio Latte",
+        "description":  "Creamy espresso with pistachio flavor. Nutty, smooth and mildly sweet.",
+        "price":  7.3,
+        "imageUrl":  "coffee_2.png",
+        "category":  "Specialty"
+    },
+    {
+        "name":  "Salted Caramel Coffee",
+        "description":  "Rich coffee with caramel sweetness and a subtle salty finish. Balanced and indulgent.",
+        "price":  7.4,
+        "imageUrl":  "coffee_3.png",
+        "category":  "Specialty"
+    },
+    {
+        "name":  "Peanut Butter Mocha",
+        "description":  "Chocolate coffee with creamy peanut butter flavor. Rich, sweet and nutty.",
+        "price":  7.5,
+        "imageUrl":  "coffee_4.png",
+        "category":  "Specialty"
+    },
+    {
+        "name":  "Coconut Mocha",
+        "description":  "Espresso with chocolate, milk and coconut flavor. Sweet, creamy and tropical.",
+        "price":  7.3,
+        "imageUrl":  "coffee_5.png",
+        "category":  "Mocha"
+    },
+    {
+        "name":  "Espresso Tonic",
+        "description":  "Bold espresso combined with chilled tonic water. Refreshing, bitter and sparkling.",
+        "price":  6.8,
+        "imageUrl":  "coffee_6.png",
+        "category":  "Specialty"
+    },
+    {
+        "name":  "Affogato Coffee",
+        "description":  "Hot espresso poured over creamy vanilla ice cream. Rich, sweet and dessert-like.",
+        "price":  7.8,
+        "imageUrl":  "coffee_7.png",
+        "category":  "Dessert Coffee"
+    },
+    {
+        "name":  "Coffee Frappe",
+        "description":  "Blended iced coffee with creamy milk and a smooth sweet finish. Cold and refreshing.",
+        "price":  7.2,
+        "imageUrl":  "coffee_1.png",
+        "category":  "Frappe"
+    }
+]
